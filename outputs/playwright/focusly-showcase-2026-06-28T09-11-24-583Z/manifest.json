@@ -1,0 +1,51 @@
+{
+  "createdAt": "2026-06-28T09:12:30.710Z",
+  "baseUrl": "http://localhost:3000",
+  "apiUrl": "http://localhost:8000",
+  "artifacts": [
+    {
+      "label": "01-home-generate-form",
+      "screenshots": [
+        "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/01-home-start.png",
+        "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/01-home-validation.png",
+        "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/01-home-filled-form.png"
+      ],
+      "video": "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/videos/01-home-generate-form.webm"
+    },
+    {
+      "label": "02-dashboard-library",
+      "screenshots": [
+        "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/02-dashboard-library.png"
+      ],
+      "video": "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/videos/02-dashboard-library.webm"
+    },
+    {
+      "label": "03-failed-job-retry-state",
+      "screenshots": [
+        "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/03-failed-job-state.png"
+      ],
+      "video": "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/videos/03-failed-job-retry-state.webm"
+    },
+    {
+      "label": "04-completed-lesson-player",
+      "screenshots": [
+        "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/04-lesson-overview.png",
+        "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/04-lesson-quiz-checkpoint.png",
+        "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/04-lesson-quiz-answer.png"
+      ],
+      "video": "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/videos/04-completed-lesson-player.webm"
+    },
+    {
+      "label": "05-live-generation-progress",
+      "screenshots": [
+        "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/05-live-generation-before-submit.png",
+        "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/05-live-generation-started.png",
+        "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/05-live-generation-15--shaping-the-lesson-into-a-few-clear-ideas-.png",
+        "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/05-live-generation-45--giving-each-idea-a-calm-voice-.png",
+        "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/05-live-generation-75--turning-the-explanation-into-motion-.png",
+        "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/05-live-generation-complete.png"
+      ],
+      "video": "/Users/pankajraikar/Desktop/projects/github/focusly/outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/videos/05-live-generation-progress.webm"
+    }
+  ]
+}

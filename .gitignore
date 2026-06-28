@@ -1,0 +1,14 @@
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.next/
+.DS_Store
+.env
+.env.*
+!.env.example
+data/
+*.tsbuildinfo
+gen-ai-report/auth.txt
+apps/web/test-results/
+apps/web/playwright-report/

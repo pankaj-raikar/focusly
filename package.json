@@ -1,0 +1,14 @@
+{
+  "name": "focusly",
+  "private": true,
+  "packageManager": "pnpm@10.14.0",
+  "scripts": {
+    "dev": "trap 'kill 0' INT TERM EXIT; pnpm run dev:api & pnpm run dev:web & wait",
+    "dev:api": "cd apps/api && uv run uvicorn focusly_api.main:app --reload --port 8000",
+    "dev:web": "pnpm --dir apps/web dev",
+    "test": "pnpm run test:api && pnpm run test:video && pnpm run test:web",
+    "test:api": "cd apps/api && uv run pytest -q && uv run ruff check focusly_api tests",
+    "test:video": "pnpm --dir packages/video test && pnpm --dir packages/video typecheck",
+    "test:web": "pnpm --dir apps/web test && pnpm --dir apps/web typecheck && pnpm --dir apps/web build && pnpm --dir apps/web test:e2e"
+  }
+}

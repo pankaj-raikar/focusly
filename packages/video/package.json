@@ -1,0 +1,25 @@
+{
+  "name": "@focusly/video",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "render:fixture": "remotion render src/index.ts Lesson ../../data/jobs/fixture/lesson.mp4 --props=fixtures/binary-search.json --codec=h264"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.482",
+    "@remotion/zod-types": "4.0.482",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "remotion": "4.0.482",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3",
+    "vitest": "4.1.9"
+  }
+}

@@ -1,0 +1,997 @@
+{
+  ".claude/settings.local.json": {
+    "mtime": 1782316689.55577,
+    "ast_hash": "c8727a7c2bb4b7f3aa68b64be32ba57c",
+    "semantic_hash": "c8727a7c2bb4b7f3aa68b64be32ba57c"
+  },
+  ".codex/hooks.json": {
+    "mtime": 1782316689.5559194,
+    "ast_hash": "1ee01f22826b33205726c967940e38eb",
+    "semantic_hash": "1ee01f22826b33205726c967940e38eb"
+  },
+  ".github/hooks/impeccable.json": {
+    "mtime": 1782316689.556066,
+    "ast_hash": "f6a14667d8817e238e37e7ee4d46c042",
+    "semantic_hash": "f6a14667d8817e238e37e7ee4d46c042"
+  },
+  ".impeccable/config.local.json": {
+    "mtime": 1782316681.3183303,
+    "ast_hash": "d9242cdb0e8a2f25b7645e2a4ceead1c",
+    "semantic_hash": "d9242cdb0e8a2f25b7645e2a4ceead1c"
+  },
+  "apps/api/focusly_api/__init__.py": {
+    "mtime": 1782318932.1401355,
+    "ast_hash": "65535a2192867d6abfe8160df43f7187",
+    "semantic_hash": "65535a2192867d6abfe8160df43f7187"
+  },
+  "apps/api/focusly_api/captions.py": {
+    "mtime": 1782319691.9097042,
+    "ast_hash": "0e0bd21816a73860a86b29b1d866b32d",
+    "semantic_hash": "0e0bd21816a73860a86b29b1d866b32d"
+  },
+  "apps/api/focusly_api/config.py": {
+    "mtime": 1782368582.7562182,
+    "ast_hash": "c24e65bb0d4ff8be7eca891a15b4aa87",
+    "semantic_hash": "c24e65bb0d4ff8be7eca891a15b4aa87"
+  },
+  "apps/api/focusly_api/db.py": {
+    "mtime": 1782384884.8884332,
+    "ast_hash": "3a8e360a1b3f6d89b5f54cedebbf95c0",
+    "semantic_hash": "3a8e360a1b3f6d89b5f54cedebbf95c0"
+  },
+  "apps/api/focusly_api/jobs.py": {
+    "mtime": 1782320224.5864635,
+    "ast_hash": "f45fa055b9918390891e4f406909ee39",
+    "semantic_hash": "f45fa055b9918390891e4f406909ee39"
+  },
+  "apps/api/focusly_api/kokoro_tts.py": {
+    "mtime": 1782384296.0853245,
+    "ast_hash": "34c11af81964648bd0c04ccb0df766c3",
+    "semantic_hash": "34c11af81964648bd0c04ccb0df766c3"
+  },
+  "apps/api/focusly_api/main.py": {
+    "mtime": 1782384884.8900306,
+    "ast_hash": "fd76c550a653ef5c371ef80092f191aa",
+    "semantic_hash": "fd76c550a653ef5c371ef80092f191aa"
+  },
+  "apps/api/focusly_api/manim_scene.py": {
+    "mtime": 1782385626.1010532,
+    "ast_hash": "d925fd0f79c4a5c9a618b6da03433eaa",
+    "semantic_hash": "d925fd0f79c4a5c9a618b6da03433eaa"
+  },
+  "apps/api/focusly_api/models.py": {
+    "mtime": 1782320224.5861456,
+    "ast_hash": "218360a58dd45bafd59c614e85c57df2",
+    "semantic_hash": "218360a58dd45bafd59c614e85c57df2"
+  },
+  "apps/api/focusly_api/openai_lesson.py": {
+    "mtime": 1782383800.3826108,
+    "ast_hash": "144311c7ac8a46b8765bf10c1e992dc4",
+    "semantic_hash": "144311c7ac8a46b8765bf10c1e992dc4"
+  },
+  "apps/api/focusly_api/pipeline.py": {
+    "mtime": 1782366840.0533242,
+    "ast_hash": "cf8a6b0783f57da05d119b70119efc6d",
+    "semantic_hash": "cf8a6b0783f57da05d119b70119efc6d"
+  },
+  "apps/api/focusly_api/render.py": {
+    "mtime": 1782385626.1010597,
+    "ast_hash": "68e076f5e1f158ba59f8b8cda6b33a30",
+    "semantic_hash": "68e076f5e1f158ba59f8b8cda6b33a30"
+  },
+  "apps/api/focusly_api/schemas.py": {
+    "mtime": 1782384884.8869417,
+    "ast_hash": "076bfc2ee421fdc74e421c86313290fe",
+    "semantic_hash": "076bfc2ee421fdc74e421c86313290fe"
+  },
+  "apps/api/pyproject.toml": {
+    "mtime": 1782385404.2547996,
+    "ast_hash": "14a62b7c86ca79c638356456ca99e1e5",
+    "semantic_hash": "14a62b7c86ca79c638356456ca99e1e5"
+  },
+  "apps/api/tests/test_api.py": {
+    "mtime": 1782384862.7409868,
+    "ast_hash": "7bbc4c59cfbb47c3b65ab40108150e02",
+    "semantic_hash": "7bbc4c59cfbb47c3b65ab40108150e02"
+  },
+  "apps/api/tests/test_captions.py": {
+    "mtime": 1782384326.5098324,
+    "ast_hash": "a7a427756011c83e0082393c4ef9658e",
+    "semantic_hash": "a7a427756011c83e0082393c4ef9658e"
+  },
+  "apps/api/tests/test_config.py": {
+    "mtime": 1782368699.3193488,
+    "ast_hash": "5fab73a6de68d9e867d0472097882158",
+    "semantic_hash": "5fab73a6de68d9e867d0472097882158"
+  },
+  "apps/api/tests/test_openai_lesson.py": {
+    "mtime": 1782383800.3826077,
+    "ast_hash": "b31518f3c67ea67bb4722d11bf11acd7",
+    "semantic_hash": "b31518f3c67ea67bb4722d11bf11acd7"
+  },
+  "apps/api/tests/test_openai_real.py": {
+    "mtime": 1782368539.7881887,
+    "ast_hash": "6d4d1b0d97a2164386c03d4888d25a4d",
+    "semantic_hash": "6d4d1b0d97a2164386c03d4888d25a4d"
+  },
+  "apps/api/tests/test_pipeline.py": {
+    "mtime": 1782366544.1930673,
+    "ast_hash": "6e7eb16235274266ea24bf7792c78ef5",
+    "semantic_hash": "6e7eb16235274266ea24bf7792c78ef5"
+  },
+  "apps/api/tests/test_render.py": {
+    "mtime": 1782385391.1724288,
+    "ast_hash": "007a20de398bc438bf2243b4b4b7b4d7",
+    "semantic_hash": "007a20de398bc438bf2243b4b4b7b4d7"
+  },
+  "apps/api/tests/test_smoke_real_media.py": {
+    "mtime": 1782385641.229304,
+    "ast_hash": "d4f112f2965848994bd74b6e2ba8d3a6",
+    "semantic_hash": "d4f112f2965848994bd74b6e2ba8d3a6"
+  },
+  "apps/web/app/dashboard/page.tsx": {
+    "mtime": 1782384971.3683026,
+    "ast_hash": "f9b0bfe58196153340cc0ee22b1f7a7e",
+    "semantic_hash": "f9b0bfe58196153340cc0ee22b1f7a7e"
+  },
+  "apps/web/app/jobs/[jobId]/page.tsx": {
+    "mtime": 1782384971.3692834,
+    "ast_hash": "7e0f2109ff768313a1b4900c4e26f121",
+    "semantic_hash": "7e0f2109ff768313a1b4900c4e26f121"
+  },
+  "apps/web/app/layout.tsx": {
+    "mtime": 1782367464.8283684,
+    "ast_hash": "e667529d83932a4111c1c5738ba1e77d",
+    "semantic_hash": "e667529d83932a4111c1c5738ba1e77d"
+  },
+  "apps/web/app/lessons/[jobId]/page.tsx": {
+    "mtime": 1782384971.3695855,
+    "ast_hash": "930aa87471a1846310eb2db7ea28adf1",
+    "semantic_hash": "930aa87471a1846310eb2db7ea28adf1"
+  },
+  "apps/web/app/page.tsx": {
+    "mtime": 1782384971.3689053,
+    "ast_hash": "b3601286772c4cb9338d374a254f8987",
+    "semantic_hash": "b3601286772c4cb9338d374a254f8987"
+  },
+  "apps/web/components/generate-form.tsx": {
+    "mtime": 1782367464.8293545,
+    "ast_hash": "60c7a03d7553e1f4faa358e41999152f",
+    "semantic_hash": "60c7a03d7553e1f4faa358e41999152f"
+  },
+  "apps/web/components/job-card.tsx": {
+    "mtime": 1782384971.3678572,
+    "ast_hash": "9f3ccf09eb56c2ebb98c0bc1c4bdb9e1",
+    "semantic_hash": "9f3ccf09eb56c2ebb98c0bc1c4bdb9e1"
+  },
+  "apps/web/components/job-progress.tsx": {
+    "mtime": 1782367464.8297231,
+    "ast_hash": "64e2d2e4ac6beb04eda8a3dd5dd5fd74",
+    "semantic_hash": "64e2d2e4ac6beb04eda8a3dd5dd5fd74"
+  },
+  "apps/web/components/lesson-player.tsx": {
+    "mtime": 1782367023.2368946,
+    "ast_hash": "f2a5c604117c791f78e43677b756275b",
+    "semantic_hash": "f2a5c604117c791f78e43677b756275b"
+  },
+  "apps/web/components/quiz-card.tsx": {
+    "mtime": 1782367464.830357,
+    "ast_hash": "3cd04dce6b00b4c917a547b8e8c7d0d9",
+    "semantic_hash": "3cd04dce6b00b4c917a547b8e8c7d0d9"
+  },
+  "apps/web/e2e/generate-to-lesson.spec.ts": {
+    "mtime": 1782385036.3550532,
+    "ast_hash": "570f0ae67cc50f21153b6c968e005a2f",
+    "semantic_hash": "570f0ae67cc50f21153b6c968e005a2f"
+  },
+  "apps/web/lib/api.ts": {
+    "mtime": 1782384971.367396,
+    "ast_hash": "ea1511f7792cc1c9894040ef9e978385",
+    "semantic_hash": "ea1511f7792cc1c9894040ef9e978385"
+  },
+  "apps/web/next-env.d.ts": {
+    "mtime": 1782385764.8742151,
+    "ast_hash": "d0f8375ae1199dc7acd3977fc33b78b8",
+    "semantic_hash": "d0f8375ae1199dc7acd3977fc33b78b8"
+  },
+  "apps/web/next.config.ts": {
+    "mtime": 1782321442.434546,
+    "ast_hash": "ede9a946c36f5c84518ff93f6e0de589",
+    "semantic_hash": "ede9a946c36f5c84518ff93f6e0de589"
+  },
+  "apps/web/package.json": {
+    "mtime": 1782320666.652162,
+    "ast_hash": "a10831a942055f2b136391101ffb293b",
+    "semantic_hash": "a10831a942055f2b136391101ffb293b"
+  },
+  "apps/web/playwright.config.ts": {
+    "mtime": 1782321407.3793702,
+    "ast_hash": "1e68f16d31edf1c58a55d884e3b1b4ea",
+    "semantic_hash": "1e68f16d31edf1c58a55d884e3b1b4ea"
+  },
+  "apps/web/tests/api.test.ts": {
+    "mtime": 1782384921.4140556,
+    "ast_hash": "8cc2b61d044096db6a338e6a187749d9",
+    "semantic_hash": "8cc2b61d044096db6a338e6a187749d9"
+  },
+  "apps/web/tests/job-card.test.tsx": {
+    "mtime": 1782384921.41502,
+    "ast_hash": "7c3b48a50afa6176dd17249fe0b22adb",
+    "semantic_hash": "7c3b48a50afa6176dd17249fe0b22adb"
+  },
+  "apps/web/tests/quiz.test.ts": {
+    "mtime": 1782366987.3850737,
+    "ast_hash": "672ca30acf75508f6b08d134ec915dfb",
+    "semantic_hash": "672ca30acf75508f6b08d134ec915dfb"
+  },
+  "apps/web/tests/setup.ts": {
+    "mtime": 1782320417.5644672,
+    "ast_hash": "3709e3aa95abf0544678f0f2d9b46702",
+    "semantic_hash": "3709e3aa95abf0544678f0f2d9b46702"
+  },
+  "apps/web/tsconfig.json": {
+    "mtime": 1782320562.2980428,
+    "ast_hash": "f673256d67d7a27286408ef500c3789e",
+    "semantic_hash": "f673256d67d7a27286408ef500c3789e"
+  },
+  "apps/web/vitest.config.ts": {
+    "mtime": 1782321709.6354475,
+    "ast_hash": "e8c9f8a68151b7e888ee7147ff25b4ff",
+    "semantic_hash": "e8c9f8a68151b7e888ee7147ff25b4ff"
+  },
+  "outputs/playwright/capture-focusly-showcase.mjs": {
+    "mtime": 1782637875.4189637,
+    "ast_hash": "aba16f385f87b23000ba687068ebc793",
+    "semantic_hash": "aba16f385f87b23000ba687068ebc793"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/manifest.json": {
+    "mtime": 1782637596.503355,
+    "ast_hash": "5dd64c6d66edd046e947a9633fec9902",
+    "semantic_hash": "5dd64c6d66edd046e947a9633fec9902"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/manifest.json": {
+    "mtime": 1782637814.014823,
+    "ast_hash": "904fb705a0bcc8c886b73845b7db8a60",
+    "semantic_hash": "904fb705a0bcc8c886b73845b7db8a60"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/manifest.json": {
+    "mtime": 1782637950.7109673,
+    "ast_hash": "21f71914882e0841c98d465015d3c0b5",
+    "semantic_hash": "21f71914882e0841c98d465015d3c0b5"
+  },
+  "package.json": {
+    "mtime": 1782366883.0330791,
+    "ast_hash": "16271798bc293cd240d105a1078d4e64",
+    "semantic_hash": "16271798bc293cd240d105a1078d4e64"
+  },
+  "packages/video/fixtures/binary-search.json": {
+    "mtime": 1782318302.9317825,
+    "ast_hash": "298eb674845b6b1f99b6dab55b365625",
+    "semantic_hash": "298eb674845b6b1f99b6dab55b365625"
+  },
+  "packages/video/package.json": {
+    "mtime": 1782318632.4783196,
+    "ast_hash": "612fd841477e3cb349773c60346846d7",
+    "semantic_hash": "612fd841477e3cb349773c60346846d7"
+  },
+  "packages/video/src/LessonComposition.tsx": {
+    "mtime": 1782321916.6670496,
+    "ast_hash": "4597abc9aa23a609a5c56c610483557d",
+    "semantic_hash": "4597abc9aa23a609a5c56c610483557d"
+  },
+  "packages/video/src/Root.tsx": {
+    "mtime": 1782318435.5586798,
+    "ast_hash": "73d4ce83fee9a4291904e76d2525dbd6",
+    "semantic_hash": "73d4ce83fee9a4291904e76d2525dbd6"
+  },
+  "packages/video/src/index.ts": {
+    "mtime": 1782318435.559092,
+    "ast_hash": "743b831caf377c1535969e78a21332a4",
+    "semantic_hash": "743b831caf377c1535969e78a21332a4"
+  },
+  "packages/video/src/lesson.ts": {
+    "mtime": 1782321916.664909,
+    "ast_hash": "3eb53e653bfa2cdaa992e6c760be4173",
+    "semantic_hash": "3eb53e653bfa2cdaa992e6c760be4173"
+  },
+  "packages/video/src/scenes.tsx": {
+    "mtime": 1782318404.6605146,
+    "ast_hash": "fb3e3400c3bb82884f5168b8417b1d91",
+    "semantic_hash": "fb3e3400c3bb82884f5168b8417b1d91"
+  },
+  "packages/video/tests/lesson.test.ts": {
+    "mtime": 1782321884.404776,
+    "ast_hash": "9bd6d7a1a679a527b71079ceecfef55c",
+    "semantic_hash": "9bd6d7a1a679a527b71079ceecfef55c"
+  },
+  "packages/video/tests/scenes.test.ts": {
+    "mtime": 1782318361.7981231,
+    "ast_hash": "d4b1d3794bb73eeceabb591297e5df51",
+    "semantic_hash": "d4b1d3794bb73eeceabb591297e5df51"
+  },
+  "packages/video/tsconfig.json": {
+    "mtime": 1782318302.9315798,
+    "ast_hash": "fc9a354b7cdc5ad814db209ae5b17e07",
+    "semantic_hash": "fc9a354b7cdc5ad814db209ae5b17e07"
+  },
+  ".claude/PRPs/prds/focusly-adhd-learning-platform.prd.md": {
+    "mtime": 1779131187.742444,
+    "ast_hash": "398e1839202038c3af6ca770a0a95716",
+    "semantic_hash": "398e1839202038c3af6ca770a0a95716"
+  },
+  ".serena/project.local.yml": {
+    "mtime": 1782315580.8024564,
+    "ast_hash": "f136e7d47205d9a758913615074760e5",
+    "semantic_hash": "f136e7d47205d9a758913615074760e5"
+  },
+  ".serena/project.yml": {
+    "mtime": 1782315580.8020337,
+    "ast_hash": "67bcbf44d56ae4d665d465e9c6e81651",
+    "semantic_hash": "67bcbf44d56ae4d665d465e9c6e81651"
+  },
+  "AGENTS.md": {
+    "mtime": 1782316856.0672672,
+    "ast_hash": "36c54fa81f2df060981debc0d45916a3",
+    "semantic_hash": "36c54fa81f2df060981debc0d45916a3"
+  },
+  "Product Requirements Document.md": {
+    "mtime": 1778911711.5587163,
+    "ast_hash": "cfe5dba5864582f87d0c8adae50a9b1c",
+    "semantic_hash": "cfe5dba5864582f87d0c8adae50a9b1c"
+  },
+  "docs/architect/01-high-level-system-design.md": {
+    "mtime": 1779127824.4682095,
+    "ast_hash": "5ddbe22b8f94ba0a20a7006adb6cc4ed",
+    "semantic_hash": "5ddbe22b8f94ba0a20a7006adb6cc4ed"
+  },
+  "docs/architect/02-langgraph-state-machine.md": {
+    "mtime": 1779127824.4926226,
+    "ast_hash": "a0c1a81315a91e2225de34cf9c84b3a5",
+    "semantic_hash": "a0c1a81315a91e2225de34cf9c84b3a5"
+  },
+  "docs/architect/03-langchain-architecture.md": {
+    "mtime": 1779127954.5333648,
+    "ast_hash": "dab14de9223ce3fd41adf6aa975b2b72",
+    "semantic_hash": "dab14de9223ce3fd41adf6aa975b2b72"
+  },
+  "docs/architect/04-remotion-manim-rendering.md": {
+    "mtime": 1779127954.5581965,
+    "ast_hash": "91d196c1b25a26be0fc8126382f325e7",
+    "semantic_hash": "91d196c1b25a26be0fc8126382f325e7"
+  },
+  "docs/architect/05-backend-frontend-architecture.md": {
+    "mtime": 1779128096.9561398,
+    "ast_hash": "d2a692a4d96b8ed0f7f040b8b99b2f7e",
+    "semantic_hash": "d2a692a4d96b8ed0f7f040b8b99b2f7e"
+  },
+  "docs/architect/06-database-queue-storage.md": {
+    "mtime": 1779128097.6293612,
+    "ast_hash": "315125f48cf41b22511afacfdd61d1ea",
+    "semantic_hash": "315125f48cf41b22511afacfdd61d1ea"
+  },
+  "docs/architect/07-security-architecture.md": {
+    "mtime": 1779128194.3754025,
+    "ast_hash": "cd684ad360b404dd13ab9b8efb10b74d",
+    "semantic_hash": "cd684ad360b404dd13ab9b8efb10b74d"
+  },
+  "docs/architect/08-deployment-infrastructure.md": {
+    "mtime": 1779128194.4100888,
+    "ast_hash": "eca38ce6b6ec596fd3946a71fb9ba48d",
+    "semantic_hash": "eca38ce6b6ec596fd3946a71fb9ba48d"
+  },
+  "docs/canonical/00-index.md": {
+    "mtime": 1779359478.319878,
+    "ast_hash": "91735cb74a808b86d4d1b5e193ee922e",
+    "semantic_hash": "91735cb74a808b86d4d1b5e193ee922e"
+  },
+  "docs/canonical/01-canonical-stack-and-skill-routing.md": {
+    "mtime": 1779359478.3258846,
+    "ast_hash": "1c357e30eb357a5f46719fe16d2d93c2",
+    "semantic_hash": "1c357e30eb357a5f46719fe16d2d93c2"
+  },
+  "docs/canonical/02-system-architecture.md": {
+    "mtime": 1779359478.3298466,
+    "ast_hash": "616a90335f5db45ba97f87214bce4cba",
+    "semantic_hash": "616a90335f5db45ba97f87214bce4cba"
+  },
+  "docs/canonical/03-product-requirements.md": {
+    "mtime": 1779359478.3303013,
+    "ast_hash": "8742295dbe44f40fa30d003532201a78",
+    "semantic_hash": "8742295dbe44f40fa30d003532201a78"
+  },
+  "docs/canonical/04-api-and-data-contracts.md": {
+    "mtime": 1779359478.3307009,
+    "ast_hash": "70aa34a03ae7cf64140d43826def812e",
+    "semantic_hash": "70aa34a03ae7cf64140d43826def812e"
+  },
+  "docs/canonical/05-langgraph-agent-pipeline.md": {
+    "mtime": 1779359478.3310797,
+    "ast_hash": "3f219ea310e986ddcff83e258b1eacad",
+    "semantic_hash": "3f219ea310e986ddcff83e258b1eacad"
+  },
+  "docs/canonical/06-backend-implementation-guide.md": {
+    "mtime": 1779359478.331387,
+    "ast_hash": "b25b93e9924c3a55536192563d710343",
+    "semantic_hash": "b25b93e9924c3a55536192563d710343"
+  },
+  "docs/canonical/07-frontend-implementation-guide.md": {
+    "mtime": 1779359478.3316596,
+    "ast_hash": "63f83822618cfa8f1af85b4379d2f52b",
+    "semantic_hash": "63f83822618cfa8f1af85b4379d2f52b"
+  },
+  "docs/canonical/08-rendering-audio-storage-guide.md": {
+    "mtime": 1779359478.3319435,
+    "ast_hash": "6fc678bb8543011b80be6348fb2ec0c3",
+    "semantic_hash": "6fc678bb8543011b80be6348fb2ec0c3"
+  },
+  "docs/canonical/09-testing-and-verification-guide.md": {
+    "mtime": 1779359478.3322313,
+    "ast_hash": "b6742df01cede73d655efcf03fc7bb43",
+    "semantic_hash": "b6742df01cede73d655efcf03fc7bb43"
+  },
+  "docs/canonical/10-security-and-reliability-guide.md": {
+    "mtime": 1779359478.3325229,
+    "ast_hash": "dd327289a8c961f7c6d6ba00be37457e",
+    "semantic_hash": "dd327289a8c961f7c6d6ba00be37457e"
+  },
+  "docs/canonical/11-8-week-implementation-plan.md": {
+    "mtime": 1779359478.3328516,
+    "ast_hash": "dd9381aaa4d2d17d94670817a31fc5e1",
+    "semantic_hash": "dd9381aaa4d2d17d94670817a31fc5e1"
+  },
+  "docs/canonical/12-future-agent-build-rules.md": {
+    "mtime": 1779359478.333074,
+    "ast_hash": "63060b33fe6afa1868b1dddb75fd9c50",
+    "semantic_hash": "63060b33fe6afa1868b1dddb75fd9c50"
+  },
+  "docs/canonical/13-post-mvp-evolution.md": {
+    "mtime": 1779359478.3332653,
+    "ast_hash": "4ee8f26f3ccaf01b5213ac11fe07d7ef",
+    "semantic_hash": "4ee8f26f3ccaf01b5213ac11fe07d7ef"
+  },
+  "docs/mvp-learner-validation.md": {
+    "mtime": 1782322520.4393768,
+    "ast_hash": "fb1174a548db329146cf6327cbb0fa54",
+    "semantic_hash": "fb1174a548db329146cf6327cbb0fa54"
+  },
+  "docs/mvp-runbook.md": {
+    "mtime": 1782366867.1124558,
+    "ast_hash": "8c389a3ac9f814787826891092f38e85",
+    "semantic_hash": "8c389a3ac9f814787826891092f38e85"
+  },
+  "docs/planner/01-project-setup.md": {
+    "mtime": 1779126128.9984283,
+    "ast_hash": "cdcdbbac423b95428095b5f1f17265e0",
+    "semantic_hash": "cdcdbbac423b95428095b5f1f17265e0"
+  },
+  "docs/planner/02-backend-implementation.md": {
+    "mtime": 1779126246.2693422,
+    "ast_hash": "b1888f91bbd422bd951add3245cd3294",
+    "semantic_hash": "b1888f91bbd422bd951add3245cd3294"
+  },
+  "docs/planner/03-frontend-implementation.md": {
+    "mtime": 1779126246.3450232,
+    "ast_hash": "a31348b46eaa3b4db059e4c797480bef",
+    "semantic_hash": "a31348b46eaa3b4db059e4c797480bef"
+  },
+  "docs/planner/04-database-design.md": {
+    "mtime": 1779126360.243029,
+    "ast_hash": "2cfbe0e68f78ec35d0461b1583d71854",
+    "semantic_hash": "2cfbe0e68f78ec35d0461b1583d71854"
+  },
+  "docs/planner/05-langchain-pipeline.md": {
+    "mtime": 1779126360.2882693,
+    "ast_hash": "87849d1dbb6470a1c7a66559db3534d3",
+    "semantic_hash": "87849d1dbb6470a1c7a66559db3534d3"
+  },
+  "docs/planner/06-langgraph-agents.md": {
+    "mtime": 1779126672.1782355,
+    "ast_hash": "a8bbb840b6b8483e1f00bdbef8635b7e",
+    "semantic_hash": "a8bbb840b6b8483e1f00bdbef8635b7e"
+  },
+  "docs/planner/07-manim-pipeline.md": {
+    "mtime": 1779126672.2412114,
+    "ast_hash": "f1f710f6f85135decbab5d95895c2ba0",
+    "semantic_hash": "f1f710f6f85135decbab5d95895c2ba0"
+  },
+  "docs/planner/08-testing-strategy.md": {
+    "mtime": 1779127583.731906,
+    "ast_hash": "cb79d876422951a79b7203637ce4451e",
+    "semantic_hash": "cb79d876422951a79b7203637ce4451e"
+  },
+  "docs/planner/09-deployment-monitoring.md": {
+    "mtime": 1779127583.7569885,
+    "ast_hash": "9cfec194c4210b8a78ff7c709ad6c757",
+    "semantic_hash": "9cfec194c4210b8a78ff7c709ad6c757"
+  },
+  "docs/planner/10-milestones-execution-order.md": {
+    "mtime": 1779127583.7804627,
+    "ast_hash": "0adc87ec5254f0d78069c4ecb60b770a",
+    "semantic_hash": "0adc87ec5254f0d78069c4ecb60b770a"
+  },
+  "docs/planner/11-reduced-agent-plan.md": {
+    "mtime": 1779131311.4744086,
+    "ast_hash": "492be7d5f031899a239c8794886dbb04",
+    "semantic_hash": "492be7d5f031899a239c8794886dbb04"
+  },
+  "docs/plans/2026-06-24-focusly-openai-kokoro-mvp.md": {
+    "mtime": 1782318014.8322954,
+    "ast_hash": "a33fe0348eb78d62a726a244a80bfb28",
+    "semantic_hash": "a33fe0348eb78d62a726a244a80bfb28"
+  },
+  "pnpm-workspace.yaml": {
+    "mtime": 1782637201.1757095,
+    "ast_hash": "b7e8ccbd49568778fb46f8110c6c6f37",
+    "semantic_hash": "b7e8ccbd49568778fb46f8110c6c6f37"
+  },
+  "outputs/manual-20260519-ada-game-ai/presentations/ai-game-move-optimization/output/ai-game-move-optimization-ada.pdf": {
+    "mtime": 1779211772.5641236,
+    "ast_hash": "9113751b46f9922b20f616fedc78e0ff",
+    "semantic_hash": "9113751b46f9922b20f616fedc78e0ff"
+  },
+  "outputs/manual-20260519-focusly/presentations/focusly-phase-1-genai-v2/output/focusly-phase-1-genai-evaluation-v2.pdf": {
+    "mtime": 1779244003.3911314,
+    "ast_hash": "aa7fc293377f161e88e130f46c6ef7cd",
+    "semantic_hash": "aa7fc293377f161e88e130f46c6ef7cd"
+  },
+  "outputs/manual-20260521-url-shortener/presentations/serverless-url-shortener-aws-light/output/serverless-url-shortener-aws-light.pdf": {
+    "mtime": 1779419928.6105778,
+    "ast_hash": "df7419b5ccbd8f9d59de62f2ef8b98bb",
+    "semantic_hash": "df7419b5ccbd8f9d59de62f2ef8b98bb"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-12-274Z/screenshots/01-home-filled-form.png": {
+    "mtime": 1782637514.3935945,
+    "ast_hash": "8d98be269a55b4dbc1b1c3c71b3e7ddf",
+    "semantic_hash": "8d98be269a55b4dbc1b1c3c71b3e7ddf"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-12-274Z/screenshots/01-home-start.png": {
+    "mtime": 1782637514.1580815,
+    "ast_hash": "86e5614a75e79f81e5f99949e3862d35",
+    "semantic_hash": "86e5614a75e79f81e5f99949e3862d35"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-12-274Z/screenshots/01-home-validation.png": {
+    "mtime": 1782637514.3190596,
+    "ast_hash": "0dc05e7763a7d6a362726c63ed4ed47c",
+    "semantic_hash": "0dc05e7763a7d6a362726c63ed4ed47c"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-12-274Z/screenshots/02-dashboard-library.png": {
+    "mtime": 1782637516.159707,
+    "ast_hash": "0c36539b4602619c5c3feb70777baae6",
+    "semantic_hash": "0c36539b4602619c5c3feb70777baae6"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/screenshots/01-home-filled-form.png": {
+    "mtime": 1782637531.6489537,
+    "ast_hash": "5f951eaaa30bb232cf672819e959d6f5",
+    "semantic_hash": "5f951eaaa30bb232cf672819e959d6f5"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/screenshots/01-home-start.png": {
+    "mtime": 1782637531.3765662,
+    "ast_hash": "096d27c80669b6457b305ba494a79ea0",
+    "semantic_hash": "096d27c80669b6457b305ba494a79ea0"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/screenshots/01-home-validation.png": {
+    "mtime": 1782637531.5810227,
+    "ast_hash": "e63af79145c8d8dbcf3a42ad19bea3ff",
+    "semantic_hash": "e63af79145c8d8dbcf3a42ad19bea3ff"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/screenshots/02-dashboard-library.png": {
+    "mtime": 1782637533.405427,
+    "ast_hash": "0c36539b4602619c5c3feb70777baae6",
+    "semantic_hash": "0c36539b4602619c5c3feb70777baae6"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/screenshots/03-failed-job-state.png": {
+    "mtime": 1782637535.0993755,
+    "ast_hash": "3910804d04d0876505fc50144b2e0bc1",
+    "semantic_hash": "3910804d04d0876505fc50144b2e0bc1"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/screenshots/04-lesson-overview.png": {
+    "mtime": 1782637537.0571773,
+    "ast_hash": "1a1d20c225c9de3427e1dd41e3ee5f3b",
+    "semantic_hash": "1a1d20c225c9de3427e1dd41e3ee5f3b"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/screenshots/04-lesson-quiz-answer.png": {
+    "mtime": 1782637537.444511,
+    "ast_hash": "bc88746eafd763578bc42493215b7751",
+    "semantic_hash": "bc88746eafd763578bc42493215b7751"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/screenshots/04-lesson-quiz-checkpoint.png": {
+    "mtime": 1782637537.2423327,
+    "ast_hash": "3bda3eb1bc969a92e6877c00b84c4302",
+    "semantic_hash": "3bda3eb1bc969a92e6877c00b84c4302"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/screenshots/05-live-generation-15--shaping-the-lesson-into-a-few-clear-ideas-.png": {
+    "mtime": 1782637543.4061823,
+    "ast_hash": "ea01c417502c82366bd5a06bcd03f319",
+    "semantic_hash": "ea01c417502c82366bd5a06bcd03f319"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/screenshots/05-live-generation-45--giving-each-idea-a-calm-voice-.png": {
+    "mtime": 1782637547.4408524,
+    "ast_hash": "d6472948d19b0ec9f6c2e1119d2daa25",
+    "semantic_hash": "d6472948d19b0ec9f6c2e1119d2daa25"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/screenshots/05-live-generation-75--turning-the-explanation-into-motion-.png": {
+    "mtime": 1782637563.5052755,
+    "ast_hash": "42603da0f4115d6ff28c766c1d2e21ed",
+    "semantic_hash": "42603da0f4115d6ff28c766c1d2e21ed"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/screenshots/05-live-generation-before-submit.png": {
+    "mtime": 1782637539.1253643,
+    "ast_hash": "0b460e7bfc6876adf9bb7ca7a0830089",
+    "semantic_hash": "0b460e7bfc6876adf9bb7ca7a0830089"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/screenshots/05-live-generation-complete.png": {
+    "mtime": 1782637595.6499336,
+    "ast_hash": "6222fb57c61264ce944730975dae9df0",
+    "semantic_hash": "6222fb57c61264ce944730975dae9df0"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/screenshots/05-live-generation-started.png": {
+    "mtime": 1782637539.3677247,
+    "ast_hash": "ea01c417502c82366bd5a06bcd03f319",
+    "semantic_hash": "ea01c417502c82366bd5a06bcd03f319"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-07-53-818Z/screenshots/01-home-filled-form.png": {
+    "mtime": 1782637675.7741847,
+    "ast_hash": "5a56bbdaed6b4fec85aaf2957989d595",
+    "semantic_hash": "5a56bbdaed6b4fec85aaf2957989d595"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-07-53-818Z/screenshots/01-home-start.png": {
+    "mtime": 1782637675.512809,
+    "ast_hash": "d7655e44c3b509589bb477d2040d3b24",
+    "semantic_hash": "d7655e44c3b509589bb477d2040d3b24"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-07-53-818Z/screenshots/01-home-validation.png": {
+    "mtime": 1782637675.6909792,
+    "ast_hash": "96043255bf651611c76e667b3846c7fd",
+    "semantic_hash": "96043255bf651611c76e667b3846c7fd"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-07-53-818Z/screenshots/02-dashboard-library.png": {
+    "mtime": 1782637677.5354185,
+    "ast_hash": "394b41a75d0e52515058b75498af73aa",
+    "semantic_hash": "394b41a75d0e52515058b75498af73aa"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-07-53-818Z/screenshots/03-failed-job-state.png": {
+    "mtime": 1782637679.2947173,
+    "ast_hash": "3910804d04d0876505fc50144b2e0bc1",
+    "semantic_hash": "3910804d04d0876505fc50144b2e0bc1"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-07-53-818Z/screenshots/04-lesson-overview.png": {
+    "mtime": 1782637680.9677205,
+    "ast_hash": "aef1c66a6944b3b44b6361de2b93a9c9",
+    "semantic_hash": "aef1c66a6944b3b44b6361de2b93a9c9"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-07-53-818Z/screenshots/04-lesson-quiz-checkpoint.png": {
+    "mtime": 1782637681.1518717,
+    "ast_hash": "9251033ab0c00df082335ee36a9aad1e",
+    "semantic_hash": "9251033ab0c00df082335ee36a9aad1e"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/screenshots/01-home-filled-form.png": {
+    "mtime": 1782637747.3937864,
+    "ast_hash": "8d98be269a55b4dbc1b1c3c71b3e7ddf",
+    "semantic_hash": "8d98be269a55b4dbc1b1c3c71b3e7ddf"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/screenshots/01-home-start.png": {
+    "mtime": 1782637747.1411738,
+    "ast_hash": "d7655e44c3b509589bb477d2040d3b24",
+    "semantic_hash": "d7655e44c3b509589bb477d2040d3b24"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/screenshots/01-home-validation.png": {
+    "mtime": 1782637747.3233922,
+    "ast_hash": "5ff76734fff096911c8fb8c5cbfb3aa8",
+    "semantic_hash": "5ff76734fff096911c8fb8c5cbfb3aa8"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/screenshots/02-dashboard-library.png": {
+    "mtime": 1782637749.1033053,
+    "ast_hash": "394b41a75d0e52515058b75498af73aa",
+    "semantic_hash": "394b41a75d0e52515058b75498af73aa"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/screenshots/03-failed-job-state.png": {
+    "mtime": 1782637750.8031752,
+    "ast_hash": "3910804d04d0876505fc50144b2e0bc1",
+    "semantic_hash": "3910804d04d0876505fc50144b2e0bc1"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/screenshots/04-lesson-overview.png": {
+    "mtime": 1782637752.5502481,
+    "ast_hash": "f20229211ad3ae845522860b12e5f8c1",
+    "semantic_hash": "f20229211ad3ae845522860b12e5f8c1"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/screenshots/04-lesson-quiz-answer.png": {
+    "mtime": 1782637752.9067395,
+    "ast_hash": "dfa905a9074a47653741955c21550829",
+    "semantic_hash": "dfa905a9074a47653741955c21550829"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/screenshots/04-lesson-quiz-checkpoint.png": {
+    "mtime": 1782637752.7028587,
+    "ast_hash": "efecd452ee22a5ca4d24fdda91c98367",
+    "semantic_hash": "efecd452ee22a5ca4d24fdda91c98367"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/screenshots/05-live-generation-15--shaping-the-lesson-into-a-few-clear-ideas-.png": {
+    "mtime": 1782637758.8660703,
+    "ast_hash": "ea01c417502c82366bd5a06bcd03f319",
+    "semantic_hash": "ea01c417502c82366bd5a06bcd03f319"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/screenshots/05-live-generation-45--giving-each-idea-a-calm-voice-.png": {
+    "mtime": 1782637762.905883,
+    "ast_hash": "d6472948d19b0ec9f6c2e1119d2daa25",
+    "semantic_hash": "d6472948d19b0ec9f6c2e1119d2daa25"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/screenshots/05-live-generation-75--turning-the-explanation-into-motion-.png": {
+    "mtime": 1782637778.9535131,
+    "ast_hash": "42603da0f4115d6ff28c766c1d2e21ed",
+    "semantic_hash": "42603da0f4115d6ff28c766c1d2e21ed"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/screenshots/05-live-generation-before-submit.png": {
+    "mtime": 1782637754.6400204,
+    "ast_hash": "5d4f9d471bdde539e1ac191bc1b12297",
+    "semantic_hash": "5d4f9d471bdde539e1ac191bc1b12297"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/screenshots/05-live-generation-complete.png": {
+    "mtime": 1782637811.1014569,
+    "ast_hash": "14630b8df4e4eee2ab3fcd1b59f62eec",
+    "semantic_hash": "14630b8df4e4eee2ab3fcd1b59f62eec"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/screenshots/05-live-generation-started.png": {
+    "mtime": 1782637754.8138335,
+    "ast_hash": "424e147008c72c922be801f44fe62783",
+    "semantic_hash": "424e147008c72c922be801f44fe62783"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/01-home-filled-form.png": {
+    "mtime": 1782637885.8930886,
+    "ast_hash": "3d6893da7043d9f10fe898d8e7c11798",
+    "semantic_hash": "3d6893da7043d9f10fe898d8e7c11798"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/01-home-start.png": {
+    "mtime": 1782637885.6748707,
+    "ast_hash": "339c133fca63baa8afc684e5b9b69199",
+    "semantic_hash": "339c133fca63baa8afc684e5b9b69199"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/01-home-validation.png": {
+    "mtime": 1782637885.8258333,
+    "ast_hash": "9ad120942db1a0b9c1bacda93322e9c6",
+    "semantic_hash": "9ad120942db1a0b9c1bacda93322e9c6"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/02-dashboard-library.png": {
+    "mtime": 1782637887.6384037,
+    "ast_hash": "ff34ee8f46136216166a0d64a794aa2f",
+    "semantic_hash": "ff34ee8f46136216166a0d64a794aa2f"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/03-failed-job-state.png": {
+    "mtime": 1782637889.3365066,
+    "ast_hash": "e8c50bb501cdfb107369eb4b64604190",
+    "semantic_hash": "e8c50bb501cdfb107369eb4b64604190"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/04-lesson-overview.png": {
+    "mtime": 1782637891.0525756,
+    "ast_hash": "c18880f8849449516ac2a364a4f996d0",
+    "semantic_hash": "c18880f8849449516ac2a364a4f996d0"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/04-lesson-quiz-answer.png": {
+    "mtime": 1782637891.4199007,
+    "ast_hash": "fbdd7d2ce4674f9b84d216b26f42a6e9",
+    "semantic_hash": "fbdd7d2ce4674f9b84d216b26f42a6e9"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/04-lesson-quiz-checkpoint.png": {
+    "mtime": 1782637891.2261753,
+    "ast_hash": "7249610e96671e043a2405e9385de0d2",
+    "semantic_hash": "7249610e96671e043a2405e9385de0d2"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/05-live-generation-15--shaping-the-lesson-into-a-few-clear-ideas-.png": {
+    "mtime": 1782637897.3548026,
+    "ast_hash": "4c968b6af85ce6342a5b53e28c0bf528",
+    "semantic_hash": "4c968b6af85ce6342a5b53e28c0bf528"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/05-live-generation-45--giving-each-idea-a-calm-voice-.png": {
+    "mtime": 1782637901.397613,
+    "ast_hash": "3e20b861f5e6675a5a930d6fe7c61c33",
+    "semantic_hash": "3e20b861f5e6675a5a930d6fe7c61c33"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/05-live-generation-75--turning-the-explanation-into-motion-.png": {
+    "mtime": 1782637917.4922404,
+    "ast_hash": "e3574f87d20bc85637fd40bc0ce34dfe",
+    "semantic_hash": "e3574f87d20bc85637fd40bc0ce34dfe"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/05-live-generation-before-submit.png": {
+    "mtime": 1782637893.0918562,
+    "ast_hash": "736b6d13aee86f7309d445527d25a394",
+    "semantic_hash": "736b6d13aee86f7309d445527d25a394"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/05-live-generation-complete.png": {
+    "mtime": 1782637949.635534,
+    "ast_hash": "de363c191064fd3ad8396ae04fd8915f",
+    "semantic_hash": "de363c191064fd3ad8396ae04fd8915f"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/screenshots/05-live-generation-started.png": {
+    "mtime": 1782637893.3177307,
+    "ast_hash": "4c968b6af85ce6342a5b53e28c0bf528",
+    "semantic_hash": "4c968b6af85ce6342a5b53e28c0bf528"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-04-18-266Z/videos/01-home-generate-form.webm": {
+    "mtime": 1782637459.5036325,
+    "ast_hash": "2ec74f6c6d6a0c46ca214cacdfe1c3ab",
+    "semantic_hash": "2ec74f6c6d6a0c46ca214cacdfe1c3ab"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-12-274Z/videos/01-home-generate-form.webm": {
+    "mtime": 1782637515.33276,
+    "ast_hash": "8685481b5e6530cc040815282e00cb41",
+    "semantic_hash": "8685481b5e6530cc040815282e00cb41"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-12-274Z/videos/02-dashboard-library.webm": {
+    "mtime": 1782637517.1364174,
+    "ast_hash": "99bcbce415a5eecb1ca44018a1c971bc",
+    "semantic_hash": "99bcbce415a5eecb1ca44018a1c971bc"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-12-274Z/videos/03-failed-job-retry-state.webm": {
+    "mtime": 1782637519.0397809,
+    "ast_hash": "79e9fba98659e5604d66478faa2b09be",
+    "semantic_hash": "79e9fba98659e5604d66478faa2b09be"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/videos/01-home-generate-form.mp4": {
+    "mtime": 1782637617.3570151,
+    "ast_hash": "c89343ebb0eeb7b153bc9cf08c50854e",
+    "semantic_hash": "c89343ebb0eeb7b153bc9cf08c50854e"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/videos/01-home-generate-form.webm": {
+    "mtime": 1782637532.597289,
+    "ast_hash": "cf3d00c3168d241299471720cfa78978",
+    "semantic_hash": "cf3d00c3168d241299471720cfa78978"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/videos/02-dashboard-library.mp4": {
+    "mtime": 1782637617.567937,
+    "ast_hash": "6d395b65fb51fc0950a60f040b023031",
+    "semantic_hash": "6d395b65fb51fc0950a60f040b023031"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/videos/02-dashboard-library.webm": {
+    "mtime": 1782637534.3554816,
+    "ast_hash": "00065ab4571dc5093cca71566107ae8a",
+    "semantic_hash": "00065ab4571dc5093cca71566107ae8a"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/videos/03-failed-job-retry-state.mp4": {
+    "mtime": 1782637617.76809,
+    "ast_hash": "809f61ae5293161234ef77633e9e607a",
+    "semantic_hash": "809f61ae5293161234ef77633e9e607a"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/videos/03-failed-job-retry-state.webm": {
+    "mtime": 1782637536.011986,
+    "ast_hash": "56463780183089be262346abd6da960e",
+    "semantic_hash": "56463780183089be262346abd6da960e"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/videos/04-completed-lesson-player.mp4": {
+    "mtime": 1782637618.1098113,
+    "ast_hash": "f9328a769f5a617c09d36266c8e5987a",
+    "semantic_hash": "f9328a769f5a617c09d36266c8e5987a"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/videos/04-completed-lesson-player.webm": {
+    "mtime": 1782637538.3823144,
+    "ast_hash": "d477cc6d20e5d637a4a80f7eabdfb6cf",
+    "semantic_hash": "d477cc6d20e5d637a4a80f7eabdfb6cf"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/videos/05-live-generation-progress.mp4": {
+    "mtime": 1782637621.2941194,
+    "ast_hash": "4f321428b32501c493cab3c7edf8954f",
+    "semantic_hash": "4f321428b32501c493cab3c7edf8954f"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-05-30-364Z/videos/05-live-generation-progress.webm": {
+    "mtime": 1782637596.4867234,
+    "ast_hash": "fc4783028d5a7f006ba0795730ba4214",
+    "semantic_hash": "fc4783028d5a7f006ba0795730ba4214"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-07-53-818Z/videos/01-home-generate-form.webm": {
+    "mtime": 1782637676.737225,
+    "ast_hash": "e690c2acfb25b7f6c22321a02e73851a",
+    "semantic_hash": "e690c2acfb25b7f6c22321a02e73851a"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-07-53-818Z/videos/02-dashboard-library.webm": {
+    "mtime": 1782637678.479234,
+    "ast_hash": "8c0bcdde3c3c0dffbe15a446fbb01713",
+    "semantic_hash": "8c0bcdde3c3c0dffbe15a446fbb01713"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-07-53-818Z/videos/03-failed-job-retry-state.webm": {
+    "mtime": 1782637680.1598473,
+    "ast_hash": "c818d6768d95f670060e5eb3e9bd1e9a",
+    "semantic_hash": "c818d6768d95f670060e5eb3e9bd1e9a"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-07-53-818Z/videos/04-completed-lesson-player.webm": {
+    "mtime": 1782637714.389406,
+    "ast_hash": "e06e939947b0f8f0122576d298b51489",
+    "semantic_hash": "e06e939947b0f8f0122576d298b51489"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/videos/01-home-generate-form.mp4": {
+    "mtime": 1782637823.0563622,
+    "ast_hash": "908951b24284bfb9a4b2c1029c5d63c1",
+    "semantic_hash": "908951b24284bfb9a4b2c1029c5d63c1"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/videos/01-home-generate-form.webm": {
+    "mtime": 1782637748.3350127,
+    "ast_hash": "eb4dbfe46c5d3b7980f9cfd30c347fc3",
+    "semantic_hash": "eb4dbfe46c5d3b7980f9cfd30c347fc3"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/videos/02-dashboard-library.mp4": {
+    "mtime": 1782637823.2691798,
+    "ast_hash": "3fdb01683f92f1e964d0e4b180d242c1",
+    "semantic_hash": "3fdb01683f92f1e964d0e4b180d242c1"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/videos/02-dashboard-library.webm": {
+    "mtime": 1782637750.0529187,
+    "ast_hash": "3b68529da2e7c71669c8421534727efb",
+    "semantic_hash": "3b68529da2e7c71669c8421534727efb"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/videos/03-failed-job-retry-state.mp4": {
+    "mtime": 1782637823.4378712,
+    "ast_hash": "a6857571c01dcd99afbc2f72dfca894e",
+    "semantic_hash": "a6857571c01dcd99afbc2f72dfca894e"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/videos/03-failed-job-retry-state.webm": {
+    "mtime": 1782637751.7323773,
+    "ast_hash": "71f3aec628447c91dd4f497308bff41b",
+    "semantic_hash": "71f3aec628447c91dd4f497308bff41b"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/videos/04-completed-lesson-player.mp4": {
+    "mtime": 1782637823.73664,
+    "ast_hash": "a34fe4dcb7f88d8f16caba6394c0f387",
+    "semantic_hash": "a34fe4dcb7f88d8f16caba6394c0f387"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/videos/04-completed-lesson-player.webm": {
+    "mtime": 1782637753.8632464,
+    "ast_hash": "ca36d151237dddc0ea2316d72cc0171e",
+    "semantic_hash": "ca36d151237dddc0ea2316d72cc0171e"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/videos/05-live-generation-progress.mp4": {
+    "mtime": 1782637826.7958906,
+    "ast_hash": "41f0957873de29299f2d506908db954a",
+    "semantic_hash": "41f0957873de29299f2d506908db954a"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-09-05-591Z/videos/05-live-generation-progress.webm": {
+    "mtime": 1782637813.9953623,
+    "ast_hash": "fc6acbf389695bcbf949039226770704",
+    "semantic_hash": "fc6acbf389695bcbf949039226770704"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/videos/01-home-generate-form.mp4": {
+    "mtime": 1782637959.54615,
+    "ast_hash": "b3beab4d881de91a3f0b1f4d14ccc7ee",
+    "semantic_hash": "b3beab4d881de91a3f0b1f4d14ccc7ee"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/videos/01-home-generate-form.webm": {
+    "mtime": 1782637886.8302445,
+    "ast_hash": "065cf893a1fd947098f923fe0b6dc4d7",
+    "semantic_hash": "065cf893a1fd947098f923fe0b6dc4d7"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/videos/02-dashboard-library.mp4": {
+    "mtime": 1782637959.7609785,
+    "ast_hash": "e64820fe101859de4712b1dba115bdff",
+    "semantic_hash": "e64820fe101859de4712b1dba115bdff"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/videos/02-dashboard-library.webm": {
+    "mtime": 1782637888.5898721,
+    "ast_hash": "6b8c7d3a43bbdc0aeb55c11842d970ea",
+    "semantic_hash": "6b8c7d3a43bbdc0aeb55c11842d970ea"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/videos/03-failed-job-retry-state.mp4": {
+    "mtime": 1782637959.9286501,
+    "ast_hash": "4ede66c147c270d7495ef2bb4d65e53a",
+    "semantic_hash": "4ede66c147c270d7495ef2bb4d65e53a"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/videos/03-failed-job-retry-state.webm": {
+    "mtime": 1782637890.2502167,
+    "ast_hash": "cc6f5f28b582d27391c1c47b5282e546",
+    "semantic_hash": "cc6f5f28b582d27391c1c47b5282e546"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/videos/04-completed-lesson-player.mp4": {
+    "mtime": 1782637960.221338,
+    "ast_hash": "1373f0ab102a70d006a4b2a943aae88e",
+    "semantic_hash": "1373f0ab102a70d006a4b2a943aae88e"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/videos/04-completed-lesson-player.webm": {
+    "mtime": 1782637892.3625767,
+    "ast_hash": "5bcf28dcb99fb380424fe4ea6fb7e64a",
+    "semantic_hash": "5bcf28dcb99fb380424fe4ea6fb7e64a"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/videos/05-live-generation-progress.mp4": {
+    "mtime": 1782637963.259538,
+    "ast_hash": "585d749c9aac6d73757d16ce30bfe368",
+    "semantic_hash": "585d749c9aac6d73757d16ce30bfe368"
+  },
+  "outputs/playwright/focusly-showcase-2026-06-28T09-11-24-583Z/videos/05-live-generation-progress.webm": {
+    "mtime": 1782637950.6932368,
+    "ast_hash": "14737a22aa151c5cc14974b17ef56f02",
+    "semantic_hash": "14737a22aa151c5cc14974b17ef56f02"
+  }
+}
