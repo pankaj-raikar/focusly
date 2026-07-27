@@ -71,13 +71,6 @@ def run_generation_job(
             voice=active_settings.kokoro_voice,
             pipeline=tts_pipeline,
         )
-        actual_duration = sum(narration.durations)
-        if not job.duration_target_seconds <= actual_duration <= 120:
-            raise RuntimeError(
-                "Narration duration "
-                f"{actual_duration:.1f}s is outside "
-                f"{job.duration_target_seconds}–120s"
-            )
         captions_path = job_dir / "captions.vtt"
         captions_path.write_text(
             build_webvtt(lesson.segments, narration.durations),

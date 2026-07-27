@@ -53,7 +53,7 @@ def synthesize_segments(
             raise RuntimeError(f"Kokoro returned no audio for {segment.id}")
         audio = np.concatenate(chunks)
         duration = len(audio) / SAMPLE_RATE
-        if duration < segment.target_seconds:
+        if duration != segment.target_seconds:
             chunks = [
                 audio
                 for _, _, audio in active_pipeline(

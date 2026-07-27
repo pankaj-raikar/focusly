@@ -154,3 +154,39 @@ def test_generation_job_fails_when_real_narration_is_shorter_than_target(
     assert saved is not None
     assert saved.status is JobStatus.FAILED
     assert saved.safe_error == "Lesson generation failed. Please try again."
+
+
+def test_two_minute_job_allows_narration_timing_drift(tmp_path: Path) -> None:
+    database = Database(tmp_path / "focusly.db")
+    database.create_tables()
+    job = database.create_job(
+        topic="Explain binary search",
+        audience_level="beginner",
+        duration_target_seconds=120,
+    )
+    lesson_data = lesson().model_dump(by_alias=True)
+    for segment_data in lesson_data["segments"]:
+        segment_data["targetSeconds"] = 40
+    two_minute_lesson = LessonPackage.model_validate(lesson_data)
+
+    def slightly_long_audio(text: str, *, voice: str, speed: float = 1):
+        del text, voice, speed
+        yield "", "", np.zeros(SAMPLE_RATE * 40 + 8_000, dtype=np.float32)
+
+    def fake_render(lesson_path: Path, narration_path: Path, output_path: Path) -> Path:
+        del lesson_path, narration_path
+        output_path.write_bytes(b"video")
+        return output_path
+
+    run_generation_job(
+        job.id,
+        database=database,
+        settings=Settings(data_dir=tmp_path / "jobs"),
+        lesson_generator=lambda **_: two_minute_lesson,
+        tts_pipeline=slightly_long_audio,
+        renderer=fake_render,
+    )
+
+    saved = database.get_job(job.id)
+    assert saved is not None
+    assert saved.status is JobStatus.SUCCEEDED

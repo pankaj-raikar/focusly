@@ -85,3 +85,22 @@ def test_synthesize_segments_slows_short_audio_to_segment_target(tmp_path: Path)
 
     assert speeds == [1, 0.6]
     assert result.durations == [20]
+
+
+def test_synthesize_segments_speeds_up_long_audio_to_segment_target(tmp_path: Path) -> None:
+    speeds: list[float] = []
+
+    def fake_pipeline(text: str, *, voice: str, speed: float = 1):
+        del text, voice
+        speeds.append(speed)
+        seconds = 20.5 if speed == 1 else 20
+        yield "", "", np.zeros(round(SAMPLE_RATE * seconds), dtype=np.float32)
+
+    result = synthesize_segments(
+        [segment("one", "First idea.")],
+        output_dir=tmp_path,
+        pipeline=fake_pipeline,
+    )
+
+    assert speeds == [1, 1.025]
+    assert result.durations == [20]
